@@ -1,0 +1,7 @@
+TGraph* gr = new TGraph("data2.txt")
+gr ->SetLineColor(1)
+gr ->SetLineWidth(8)
+gr ->SetMarkerColor(8)
+gr ->SetMarkerSize(1.5)
+gr ->SetMarkerStyle(21)
+gr ->Draw("ACP")
